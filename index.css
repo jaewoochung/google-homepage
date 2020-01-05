@@ -1,0 +1,47 @@
+/* StyleSheet for index.html ODIN PROJECT */
+
+.container {
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: 110px 35px 35px;
+}
+
+.item-a {
+    margin: 0 auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item-b {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0 auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item-c {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0 auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+button {
+    background-color: #e7e7e7;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 3px;
+    box-shadow: 2px 1px 1px #D3D3D3;
+}
+/*
+ * Button style
+ * Minimal rounding
+ * Gray colored
+ * Dark but not black text
+ * Google font
+ */
